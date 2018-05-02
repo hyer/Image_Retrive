@@ -9,4 +9,4 @@
 1. flip;
 2. KTree;
 3. Cluster;
-4. Directly FlowerR's softmax -- /home/hyer/workspace/algo/FlowerR/demo.py
+4. Directly FlowerR's softmax -- /home/hyer/workspace/algo/FlowerR/demo.py or srv version
