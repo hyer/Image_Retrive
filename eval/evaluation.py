@@ -1,6 +1,6 @@
 import pickle
 
-chk_file = "./models/LightCNN_29Layers_V2_checkpoint.pth.tar"
+chk_file = "./models/checkpoint.pth.tar"
 label_file = "./data/names.txt"
 
 print "==> Load labels."

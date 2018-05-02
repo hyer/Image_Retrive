@@ -215,50 +215,7 @@ class Dir():
 
 def main():
     dir = Dir()
-    # total_file_num = dir.file_count('/home/hyer/datasets/face/intell_99image_merge/merged_256x256_100')
-    # print total_file_num
 
-    # dir.categorize_image_by_id("/home/hyer/datasets/ndface_data/face_100007",
-    #                            "/home/hyer/datasets/ndface_data/face_100007_dirs")
-
-    # dir.find_dir('/home/hyer/datasets/face/intell_door_register_20160316', 3)
-    # dir.create_dir("/home/hyer/datasets/face/99image_256x256", "/home/hyer/datasets/face/99image_register")
-    # dir.move_image("/home/hyer/datasets/face/intell_99image_merge/merged-256x256-test_47", "/home/hyer/datasets/face/intell_99image_merge/merged_256x256-register_47", 3)
-    # dir.change_backend("")
-    # print os.path.isfile("/media/hyer/000B241E000F3AED/faceData/2016-03-24_new/36a727d8-1377-11e6-af1b-ecb1d74c581e.jpg")
-    # dir.get_signle_image("/home/hyer/datasets/face/99image_intell_door_register", "/home/hyer/datasets/face/99image_signle")
-    # dir.check_dir("./temp")
-
-    src_root = '/home/hyer/workspace/business/Face/water_bar_face_collection/images'
-    dst_root = '/home/hyer/datasets/ar_100'
-
-    ids = dir.getNamesFromDir(src_root)
-    print ids[0]
-    count = 0
-    for id in ids:
-        count += 1
-        path = src_root + '/' + id
-        images = dir.getImagePaths(path)
-        # dir.check_dir(dst_root + '/' + id)
-        # for img in images:
-        #     dir.copyFiles(img, dst_root + '/' + id)
-        dir.copyFiles(images[0], dst_root+"/" + time.strftime('%Y%m%d_%H%M%S_') + str(time.clock()) +".jpg")
-        # if count == 100:
-        #     break
-    # dir.del_empty_dir(dst_root)
-
-    # dir.select_image_by_id("/home/hyer/datasets/ndface_data/face_100007_dirs_1",
-    #                        "/home/hyer/datasets/ndface_data/xiaoshan_132.22_dirs",
-    #                        "/home/hyer/datasets/ndface_data/face_100007_dirs_1_in_xiaoshan")
-
-    # dir.batch_rename('/home/hyer/datasets/test_3D_faces/gall_multi')
-
-    # images = dir.getImagePaths("/home/hyer/datasets/ndface_data/xiaoshan_132.22")
-    # # print images
-    # xiaoshan_id_list = []
-    # for img in images:
-    #     xiaoshan_id_list.append(img.split('/')[-1].split('_')[0])
-    # print xiaoshan_id_list
 
 
 

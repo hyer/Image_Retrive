@@ -10,8 +10,8 @@ import sys
 sys.path.append("../")
 from Dir import Dir
 
-data_root = "/home/nd/datasets/flower/flower_531_crop_256"
-save_root = "/home/nd/datasets/flower/flower_531_crop_256-train"
+data_root = "/home/nd/datasets/crop_256"
+save_root = "/home/nd/datasets/crop_256-train"
 train_dir = save_root + "/train"
 val_dir = save_root + "/val"
 
